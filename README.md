@@ -42,3 +42,37 @@ assets/       imágenes usadas por el daemon
 ```
 
 Para conocer el flujo interno consulta [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Para el flujo de mantenimiento consulta [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
+
+
+
+```cmd
+├── assets
+│   ├── 1.jpeg
+│   ├── 2.jpeg
+│   ├── 3.jpeg
+│   ├── 4.jpeg
+│   ├── 5.jpeg
+│   ├── 6.jpeg
+│   └── 7.jpeg
+├── docs
+│   ├── app.md
+│   ├── ARCHITECTURE.md
+│   └── CONTRIBUTING.md
+├── Models
+│   └── WallpaperConfiguration.cs
+├── Program.cs
+├── Properties
+│   └── AssemblyInfo.cs
+├── README.md
+├── Services
+│   ├── GnomeWallpaperService.cs
+│   ├── Scheduler.cs
+│   ├── WallpaperExceptions.cs
+│   ├── WallpaperScanner.cs
+│   └── WallpaperSelector.cs
+├── tests
+│   ├── UnitTest1.cs
+│   └── wallpaper-daemon-cs.Tests.csproj
+└── wallpaper-daemon-cs.csproj
+
+7 directories, 22 files
